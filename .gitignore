@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+
+# Reference PDFs and spreadsheets (not source code)
+*.pdf
+*.xlsx
+*.xls
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# code-review-graph
+setup-crg.sh
+setup-crg.ps1
+check-crg.sh
+CLAUDE.md
+crg-cheatsheet.pdf
+CRG-README.md
+.cursorrules
+.opencode.json
+.windsurfrules
+GEMINI.md
